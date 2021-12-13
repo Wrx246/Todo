@@ -1,0 +1,10 @@
+.todos_body {
+
+}
+
+.list_group {
+    margin: 10px auto;
+    padding: 0;
+    border: 1px solid #ccc;
+    width: 590px;
+}

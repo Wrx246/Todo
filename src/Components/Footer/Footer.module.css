@@ -1,0 +1,36 @@
+.footer_body {
+    width: 590px;
+    margin: 10px auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkAll {
+    margin-left: 5px;
+    color: white;
+}
+
+.delete_button {
+    height: 40px;
+    width: 70px;
+    border: 0;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+.delete_button:hover {
+    background-color: #9CBBF4;
+}
+
+.delete_button:active {
+    background-color: #405F98;
+}
+
+.todo_count {
+    color: white;
+    font-weight: bolder;
+}

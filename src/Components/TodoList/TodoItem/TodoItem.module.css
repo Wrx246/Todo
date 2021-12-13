@@ -1,0 +1,38 @@
+.item_card {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.todo_active {
+    opacity: .5;
+    text-decoration: line-through;
+}
+
+.item_body {
+    margin-left: 10px;
+}
+
+.item_button {
+    height: 30px;
+    width: 45px;
+    border: 0;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+.item_button:hover {
+    background-color: #9CBBF4;
+}
+
+.item_button:active {
+    background-color: #405F98;
+}
+
+/* checkbox */
+
+
