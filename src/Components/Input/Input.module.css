@@ -35,3 +35,11 @@
 .input_button:active {
     background-color: #405F98;
 }
+
+.input_button:disabled {
+    background-color: #6c727a;
+    cursor: default;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}

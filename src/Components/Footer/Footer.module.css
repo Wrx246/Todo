@@ -30,6 +30,11 @@
     background-color: #405F98;
 }
 
+.delete_button:disabled{
+    background-color: #6c727a;
+    cursor: default;
+}
+
 .todo_count {
     color: white;
     font-weight: bolder;

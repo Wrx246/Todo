@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
+    border: 1px solid black;
 }
 
 .todo_active {
@@ -13,6 +14,14 @@
 
 .item_body {
     margin-left: 10px;
+    font-family: cursive;
+}
+
+.item_complete {
+    margin-left: 10px;
+    text-decoration: line-through;
+    font-family: cursive;
+    color: #6c727a;
 }
 
 .item_button {
@@ -33,6 +42,8 @@
     background-color: #405F98;
 }
 
-/* checkbox */
-
+.item_button:disabled {
+    background-color: #6c727a;
+    cursor: default;
+}
 
