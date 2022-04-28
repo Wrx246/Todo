@@ -47,3 +47,14 @@
     cursor: default;
 }
 
+@media screen and (max-width: 640px) and (min-width: 360px) {
+    .card_change {
+      width: auto;
+    }
+  }
+  
+  @media screen and (max-width: 359px) {
+    .card_change {
+      width: auto;
+    }
+  }
