@@ -10,3 +10,18 @@
   margin: 50px auto;
 }
 
+@media screen and (max-width: 640px) and (min-width: 360px) {
+  .app_wrapper {
+    width: auto;
+    margin: 0px 0px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .app_wrapper {
+    width: auto;
+    margin: 0px 0px;
+    padding: 20px;
+  }
+}

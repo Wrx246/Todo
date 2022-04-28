@@ -39,3 +39,84 @@
     color: white;
     font-weight: bolder;
 }
+
+@media screen and (max-width: 1023px) and (min-width: 640px) {
+    .delete_button {
+        height: 50px;
+        width: 80px;
+        font-size: 20px;
+    }
+
+    .todo_count {
+        font-size: 20px;
+    }
+
+    .checkAll {
+        font-size: 20px;
+    }
+
+    input {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 639px) and (min-width: 360px) {
+    .delete_button {
+        height: 40px;
+        width: 80px;
+        font-size: 20px;
+    }
+
+    .todo_count {
+        font-size: 20px;
+    }
+
+    .checkAll {
+        font-size: 20px;
+    }
+
+    input {
+        width: 15px;
+        height: 15px;
+    }
+
+    .footer_body {
+        width: 300px;
+        margin: 10px auto;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .delete_button {
+        height: 40px;
+        width: 70px;
+        font-size: 20px;
+    }
+
+    .todo_count {
+        font-size: 20px;
+    }
+
+    .checkAll {
+        font-size: 20px;
+    }
+
+    input {
+        width: 15px;
+        height: 15px;
+    }
+
+    .footer_body {
+        width: auto;
+        margin: 10px auto;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

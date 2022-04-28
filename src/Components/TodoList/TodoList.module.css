@@ -1,10 +1,26 @@
-.todos_body {
-
-}
+.todos_body {}
 
 .list_group {
     margin: 10px auto;
     padding: 0;
     border: 1px solid #ccc;
     width: 590px;
+}
+
+@media screen and (max-width: 640px) and (min-width: 360px) {
+    .list_group {
+        margin: 10px auto;
+        padding: 0;
+        border: 1px solid #ccc;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .list_group {
+        margin: 10px auto;
+        padding: 0;
+        border: 1px solid #ccc;
+        width: auto;
+    }
 }
